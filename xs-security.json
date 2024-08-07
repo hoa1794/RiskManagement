@@ -1,0 +1,19 @@
+{
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.RiskViewer",
+      "description": "RiskViewer"
+    }
+  ],
+  "attributes": [],
+  "role-templates": [
+    {
+      "name": "RiskViewer",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.RiskViewer"
+      ],
+      "attribute-references": []
+    }
+  ]
+}
